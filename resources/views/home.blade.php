@@ -1,10 +1,23 @@
 @extends('layouts.app')
 
 @section('content')
-    <h5>Welcome Home!</h5>
-    <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis magni reiciendis laudantium quae
-        molestias facere iure vero
-        quasi expedita excepturi omnis laborum commodi, sequi, soluta quo perferendis, alias facilis! Deserunt.
-    </p>
+    <h5>Companies</h5>
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Code</th>
+            <th scope="col">Name</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach($data as $company)
+            <tr>
+                <td>{{$company->id}}</td>
+                <td>{{$company->code}}</td>
+                <td>{{$company->name}}</td>
+                </tr>
+            @endforeach
+        </tbody>
+    </table>
 @endsection

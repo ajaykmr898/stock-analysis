@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="689d1505-c0c6-4b75-bbfa-18ba77868b0c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/passwords.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +26,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -44,7 +43,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599031594477</updated>
-      <workItem from="1599031600934" duration="5805000" />
+      <workItem from="1599031600934" duration="9554000" />
     </task>
     <servers />
   </component>
@@ -52,9 +51,53 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1092" y="228" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599041277666">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="1092" y="228" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599041277666" />
+    <state width="1244" height="278" key="GridCell.Tab.0.bottom" timestamp="1599042314718">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1244" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599042314718" />
+    <state width="1244" height="278" key="GridCell.Tab.0.center" timestamp="1599042314717">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1244" height="278" key="GridCell.Tab.0.center/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599042314717" />
+    <state width="1244" height="278" key="GridCell.Tab.0.left" timestamp="1599042314717">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1244" height="278" key="GridCell.Tab.0.left/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599042314717" />
+    <state width="1244" height="278" key="GridCell.Tab.0.right" timestamp="1599042314718">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1244" height="278" key="GridCell.Tab.0.right/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599042314718" />
+    <state width="330" height="500" key="HiddenNamespacesPopup" timestamp="1599042228033">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="330" height="500" key="HiddenNamespacesPopup/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599042228033" />
+    <state x="648" y="272" width="681" height="561" key="NewPhpClassDialog" timestamp="1599040691191">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="648" y="272" width="681" height="561" key="NewPhpClassDialog/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599040691191" />
+    <state x="890" y="429" width="196" height="247" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1599040026962">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="890" y="429" width="196" height="247" key="com.intellij.database.actions.DdlActions$CreateObject$1/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599040026962" />
+    <state x="890" y="439" width="367" height="249" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1599040406549">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="890" y="439" width="367" height="249" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599040406549" />
+    <state x="845" y="285" width="784" height="534" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1599042905848">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="845" y="285" width="784" height="534" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599042905848" />
     <state x="684" y="291" width="633" height="522" key="find.popup" timestamp="1599038048186">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="684" y="291" width="633" height="522" key="find.popup/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599038048186" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1599041009291">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599041009291" />
   </component>
 </project>
