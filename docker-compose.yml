@@ -1,0 +1,68 @@
+version: "3.2"
+
+volumes:
+  dbdata:
+
+networks:
+  backend:
+
+services:
+
+  stock-apache:
+    build:
+      context: .docker/apache
+    container_name: stock-apache
+    ports:
+      - "80:80"
+    depends_on:
+      - stock-workspace
+    volumes:
+      - ./../:/var/www/html/
+    networks:
+      - backend
+    labels:
+      - "is_stock"
+
+  stock-workspace:
+    build:
+      context: .docker/workspace
+    container_name: stock-workspace
+    environment:
+      STOCK_ENV: local
+    volumes:
+      - ./../stock-analysis/:/var/www/html/stock-analysis/:cached
+    networks:
+      - backend
+    labels:
+      - "is_stock"
+
+  stock-php:
+    build:
+      context: .docker/php
+    container_name: stock-php
+    depends_on:
+      - stock-workspace
+    volumes:
+      - ./../:/var/www/html/:cached
+    networks:
+      - backend
+    labels:
+      - "is_stock"
+
+  stock-db:
+    image: mysql:8
+    container_name: stock-db
+    ports:
+      - "3306:3306"
+    restart: on-failure
+    environment:
+      MYSQL_ROOT_PASSWORD: uTWud8a9453b4A5n
+      MYSQL_DATABASE: stock
+    volumes:
+      - dbdata:/var/lib/mysql
+      #- .docker/mysql/configurations:/etc/mysql/conf.d
+      #- .docker/mysql/data:/docker-entrypoint-initdb.d
+    networks:
+      - backend
+    labels:
+      - "is_stock"
