@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\StockController;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,4 +20,9 @@ Route::get('/', function () {
     $data = $controller->getData();
 
     return view('home', ['data' => $data]);
+});
+
+Route::post('/data', function (Request $request) {
+    $c = new StockController();
+    return $c->fetchData($request);
 });

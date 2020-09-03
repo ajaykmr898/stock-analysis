@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="689d1505-c0c6-4b75-bbfa-18ba77868b0c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.docker/apache/sites/stock-api.local.conf" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/apache/sites/stock-api.local.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/php/configuration/php.ini" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/php/configuration/php.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StockController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StockController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599031594477</updated>
-      <workItem from="1599031600934" duration="9554000" />
+      <workItem from="1599031600934" duration="33581000" />
     </task>
     <servers />
   </component>
@@ -55,22 +60,22 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="1092" y="228" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599041277666" />
-    <state width="1244" height="278" key="GridCell.Tab.0.bottom" timestamp="1599042314718">
+    <state width="1244" height="419" key="GridCell.Tab.0.bottom" timestamp="1599145621857">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1244" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599042314718" />
-    <state width="1244" height="278" key="GridCell.Tab.0.center" timestamp="1599042314717">
+    <state width="1244" height="419" key="GridCell.Tab.0.bottom/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599145621857" />
+    <state width="1244" height="419" key="GridCell.Tab.0.center" timestamp="1599145621857">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1244" height="278" key="GridCell.Tab.0.center/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599042314717" />
-    <state width="1244" height="278" key="GridCell.Tab.0.left" timestamp="1599042314717">
+    <state width="1244" height="419" key="GridCell.Tab.0.center/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599145621857" />
+    <state width="1244" height="419" key="GridCell.Tab.0.left" timestamp="1599145621857">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1244" height="278" key="GridCell.Tab.0.left/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599042314717" />
-    <state width="1244" height="278" key="GridCell.Tab.0.right" timestamp="1599042314718">
+    <state width="1244" height="419" key="GridCell.Tab.0.left/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599145621857" />
+    <state width="1244" height="419" key="GridCell.Tab.0.right" timestamp="1599145621857">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1244" height="278" key="GridCell.Tab.0.right/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599042314718" />
+    <state width="1244" height="419" key="GridCell.Tab.0.right/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599145621857" />
     <state width="330" height="500" key="HiddenNamespacesPopup" timestamp="1599042228033">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -79,6 +84,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="648" y="272" width="681" height="561" key="NewPhpClassDialog/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599040691191" />
+    <state x="762" y="255" width="453" height="595" key="RollbackChangesDialog" timestamp="1599141134022">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="762" y="255" width="453" height="595" key="RollbackChangesDialog/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599141134022" />
     <state x="890" y="429" width="196" height="247" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1599040026962">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -87,17 +96,17 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="890" y="439" width="367" height="249" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599040406549" />
-    <state x="845" y="285" width="784" height="534" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1599042905848">
+    <state x="845" y="285" width="784" height="534" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1599062171025">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="845" y="285" width="784" height="534" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599042905848" />
-    <state x="684" y="291" width="633" height="522" key="find.popup" timestamp="1599038048186">
+    <state x="845" y="285" width="784" height="534" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599062171025" />
+    <state x="684" y="291" width="633" height="522" key="find.popup" timestamp="1599136525063">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="684" y="291" width="633" height="522" key="find.popup/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599038048186" />
-    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1599041009291">
+    <state x="684" y="291" width="633" height="522" key="find.popup/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599136525063" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1599049983562">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599041009291" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599049983562" />
   </component>
 </project>
