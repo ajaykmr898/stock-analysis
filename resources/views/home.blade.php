@@ -28,4 +28,15 @@
             @endforeach
         </tbody>
     </table>
+
+    <div class="jumbotron">
+        <div class="input-group mb-3">
+            <select class="custom-select form-control companies">
+                <option value="0" selected="selected">Select</option>
+                @foreach($data as $company)
+                    <option value="{{$company->id}}">{{$company->name}}</option>
+                @endforeach
+            </select>
+        </div>
+    </div>
 @endsection

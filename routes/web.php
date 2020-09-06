@@ -22,7 +22,12 @@ Route::get('/', function () {
     return view('home', ['data' => $data]);
 });
 
-Route::post('/data', function (Request $request) {
+Route::post('/import', function (Request $request) {
     $c = new StockController();
     return $c->fetchData($request);
+});
+
+Route::post('/export', function (Request $request) {
+    $c = new StockController();
+    return $c->getDataByCompanyId($request);
 });

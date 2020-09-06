@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="689d1505-c0c6-4b75-bbfa-18ba77868b0c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.docker/apache/sites/stock-api.local.conf" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/apache/sites/stock-api.local.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.docker/php/configuration/php.ini" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/php/configuration/php.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StockController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StockController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/app.js" afterDir="false" />
@@ -48,7 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599031594477</updated>
-      <workItem from="1599031600934" duration="33581000" />
+      <workItem from="1599031600934" duration="72761000" />
     </task>
     <servers />
   </component>
@@ -60,22 +58,22 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="1092" y="228" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599041277666" />
-    <state width="1244" height="419" key="GridCell.Tab.0.bottom" timestamp="1599145621857">
+    <state width="1244" height="419" key="GridCell.Tab.0.bottom" timestamp="1599408868642">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1244" height="419" key="GridCell.Tab.0.bottom/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599145621857" />
-    <state width="1244" height="419" key="GridCell.Tab.0.center" timestamp="1599145621857">
+    <state width="1244" height="419" key="GridCell.Tab.0.bottom/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599408868642" />
+    <state width="1244" height="419" key="GridCell.Tab.0.center" timestamp="1599408868641">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1244" height="419" key="GridCell.Tab.0.center/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599145621857" />
-    <state width="1244" height="419" key="GridCell.Tab.0.left" timestamp="1599145621857">
+    <state width="1244" height="419" key="GridCell.Tab.0.center/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599408868641" />
+    <state width="1244" height="419" key="GridCell.Tab.0.left" timestamp="1599408868641">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1244" height="419" key="GridCell.Tab.0.left/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599145621857" />
-    <state width="1244" height="419" key="GridCell.Tab.0.right" timestamp="1599145621857">
+    <state width="1244" height="419" key="GridCell.Tab.0.left/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599408868641" />
+    <state width="1244" height="419" key="GridCell.Tab.0.right" timestamp="1599408868642">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1244" height="419" key="GridCell.Tab.0.right/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599145621857" />
+    <state width="1244" height="419" key="GridCell.Tab.0.right/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599408868642" />
     <state width="330" height="500" key="HiddenNamespacesPopup" timestamp="1599042228033">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -96,14 +94,22 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="890" y="439" width="367" height="249" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599040406549" />
-    <state x="845" y="285" width="784" height="534" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1599062171025">
+    <state x="845" y="285" width="784" height="534" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1599382398175">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="845" y="285" width="784" height="534" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599062171025" />
+    <state x="845" y="285" width="784" height="534" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599382398175" />
+    <state x="599" y="161" width="778" height="782" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599402131373">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="599" y="161" width="778" height="782" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599402131373" />
     <state x="684" y="291" width="633" height="522" key="find.popup" timestamp="1599136525063">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="684" y="291" width="633" height="522" key="find.popup/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599136525063" />
+    <state x="657" y="253" key="run.anything.popup" timestamp="1599403048652">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="657" y="253" key="run.anything.popup/67.27.1853.1053/67.27.1853.1053@67.27.1853.1053" timestamp="1599403048652" />
     <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1599049983562">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
